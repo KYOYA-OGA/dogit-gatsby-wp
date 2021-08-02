@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components"
 
 export const Wrapper = styled.header`
   background: #fdf3fa;
@@ -7,7 +7,7 @@ export const Wrapper = styled.header`
   position: fixed;
   width: 100%;
   z-index: 10000;
-`;
+`
 
 export const Content = styled.div`
   display: flex;
@@ -23,4 +23,4 @@ export const Content = styled.div`
     margin: 0;
     padding: 12px 0 0 0;
   }
-`;
+`
