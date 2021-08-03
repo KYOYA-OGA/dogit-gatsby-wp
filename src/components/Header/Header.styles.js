@@ -1,8 +1,8 @@
-import styled from "styled-components"
+import styled from 'styled-components'
 
 export const Wrapper = styled.header`
-  background: #fdf3fa;
-  height: 110px;
+  background: #f5f8fc;
+  height: 90px;
   border-bottom: 1px solid #e7e7e7;
   position: fixed;
   width: 100%;

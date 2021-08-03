@@ -32,7 +32,7 @@ module.exports = {
     {
       resolve: `gatsby-source-wordpress`,
       options: {
-        url: `http://dogit.local/graphql`,
+        url: `https://kyoyadev.xyz/graphql`,
       },
     },
     `gatsby-plugin-styled-components`,
@@ -40,7 +40,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [`Teko\:200,400,500,600,700`],
-        display: "swap",
+        display: 'swap',
       },
     },
 
