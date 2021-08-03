@@ -1,12 +1,11 @@
-import React from "react"
-import { useAboutQuery } from "../../hooks/useAboutQuery"
-import { Wrapper, AboutImage } from "./About.styles"
+import React from 'react'
+import { useAboutQuery } from '../../hooks/useAboutQuery'
+import { Wrapper, AboutImage } from './About.styles'
 
 const About = () => {
   const data = useAboutQuery()
 
   const imageData = data.wpPage.featuredImage.node.localFile.publicURL
-  console.log(imageData)
   return (
     <Wrapper>
       <AboutImage image={imageData} />
